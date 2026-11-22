@@ -1,7 +1,7 @@
 # Hi, I'm Martin 👋
 
-**Flutter developer**: I build smooth, animated apps for iOS, Android and the web.
-Currently at Epitech.
+**Full-Stack Developer**: I build smooth, animated apps and websites with Flutter for iOS, Android and the web.
+Currently Référent Pédagogique at Epitech, Strasbourg.
 
 🌐 **[Interactive resume](https://martinvermel.github.io/interactive_resume/)** · [LinkedIn](https://www.linkedin.com/in/martin-vermel)
 
