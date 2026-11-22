@@ -9,12 +9,12 @@ COUNT="${COUNT:-6}"
 list=$(gh api "users/${OWNER}/repos?type=owner&sort=created&direction=desc&per_page=100" \
   --jq "[.[] | select(.fork == false and .private == false and .name != \"${OWNER}\")]
         | .[:${COUNT}][]
-        | \"| [\(.name)](\(.html_url)) | \((.description // \"\") | gsub(\"\\\\|\"; \"/\")) | \(.created_at[:10]) |\"")
+        | \"| [\(.name)](\(.html_url)) | \((.description // \"\") | gsub(\"\\\\|\"; \"/\")) |\"")
 
 block_file=$(mktemp)
 {
-  echo '| Project | Description | Created |'
-  echo '|---|---|---|'
+  echo '| Project | Description |'
+  echo '|---|---|'
   echo "$list"
 } > "$block_file"
 
