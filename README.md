@@ -3,7 +3,7 @@
 **Flutter developer**: I build smooth, animated apps for iOS, Android and the web.
 Currently at Epitech.
 
-[LinkedIn](https://www.linkedin.com/in/martin-vermel)
+🌐 **[Interactive resume](https://martinvermel.github.io/interactive_resume/)** · [LinkedIn](https://www.linkedin.com/in/martin-vermel)
 
 ## Latest projects
 
